@@ -15,8 +15,6 @@ Subjects: Biology, Physics, Chemistry
 Teachers: Dr. P. Singh (Biology), Mr. K. Mehta (Physics), Ms. N. Rao (Chemistry)
 Duration: 12 months
 Mode: Online/Offline
-Timing: Mon-Fri, 4:00 PM - 6:00 PM (Online)
-Course Structure: Daily live lectures, interactive quizzes, weekly study materials, bi-weekly mentoring sessions, monthly practice tests.
 Price: ₹40,000
 Contact: neet-support@example.com
 
@@ -26,7 +24,5 @@ Subjects: Engineering Mathematics, Technical Subjects (as per stream), General A
 Teachers: Prof. V. Kumar (Engineering Mathematics), Dr. S. Patel (Technical Subjects), Ms. T. Das (General Aptitude)
 Duration: 8 months
 Mode: Online/Offline
-Timing: Sat-Sun, 10:00 AM - 1:00 PM (Online)
-Course Structure: Weekend live classes, recorded modules, previous year paper discussions, monthly strategy sessions, regular doubt clearing.
 Price: ₹35,000
 Contact: gate-support@example.com

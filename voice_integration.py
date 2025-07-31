@@ -97,7 +97,8 @@ def get_tts(output_text):
         synthesis_input = texttospeech.SynthesisInput(text=output_text)
         voice = texttospeech.VoiceSelectionParams(
             language_code="en-US",
-            ssml_gender=texttospeech.SsmlVoiceGender.NEUTRAL
+            ssml_gender=texttospeech.SsmlVoiceGender.FEMALE,
+            name="en-US-Wavenet-D"
         )
         audio_config = texttospeech.AudioConfig(
             audio_encoding=texttospeech.AudioEncoding.LINEAR16
@@ -134,7 +135,10 @@ def get_conversational_rag_chain(retriever):
         "Given a chat history and the latest user question "
         "which might reference context in the chat history, "
         "formulate a standalone question which can be understood "
+        "You need to talk like an support team member talks on call regarding queries , take the retrieved content as context and talk as humanly as possible"
+        "Your output will be given to a speech client so do not include any *,symbols just plain text that a person acna speak "
         "without the chat history. Do NOT answer the question, "
+        "answer in less than 20 words max dont go over that - dont over explain things "
         "just reformulate it if needed and otherwise return it as is."
     )
     contextualize_q_prompt = ChatPromptTemplate.from_messages(
